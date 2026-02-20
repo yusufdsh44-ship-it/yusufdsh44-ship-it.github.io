@@ -104,6 +104,6 @@ const gridObserver = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.1 });
 
-document.querySelectorAll('.skills-grid, .projects-grid').forEach((grid) => {
+document.querySelectorAll('.approach-flow, .projects-grid').forEach((grid) => {
   gridObserver.observe(grid);
 });
